@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"learning/myutilstop" 
+)
 
-func main(){
+func main() {
 	fmt.Println("hello world")
+	myutil.Printing("hello world function")
 }
